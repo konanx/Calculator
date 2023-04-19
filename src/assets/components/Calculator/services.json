@@ -1,0 +1,51 @@
+[
+    {
+        "id": 0,
+        "name": "Internet",
+        "currency": "PLN",
+        "currency_display": "zł",
+        "prices": [
+            {"year": "2023", "amount":  39.00},
+            {"year": "2024", "amount":  49.00},
+            {"year": "2025", "amount":  59.00}
+        ],
+        "required_services": []
+    },
+    {
+        "id": 1,
+        "name": "Telewizja",
+        "currency": "PLN",
+        "currency_display": "zł",
+        "prices": [
+            {"year": "2023", "amount":  49.00},
+            {"year": "2024", "amount":  49.00},
+            {"year": "2025", "amount":  59.00}
+        ],
+        "required_services": []
+    },
+
+    {
+        "id": 2,
+        "name": "Abonament telefoniczny",
+        "currency": "PLN",
+        "currency_display": "zł",
+        "prices": [
+            {"year": "2023", "amount":  29.00},
+            {"year": "2024", "amount":  29.00},
+            {"year": "2025", "amount":  29.00}
+        ],
+        "required_services": []
+    },
+    {
+        "id": 3,
+        "name": "Dekoder 4K",
+        "currency": "PLN",
+        "currency_display": "zł",
+        "prices": [
+            {"year": "2023", "amount":  29.00},
+            {"year": "2024", "amount":  29.00},
+            {"year": "2025", "amount":  29.00}
+        ],
+        "required_services": [1]
+    }
+]
